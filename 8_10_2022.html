@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset˝="UTF-8">
+        <meta equiv="X-UA-Compatible" content="1E=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Please input the requirements</legend>
+        <form action="">
+            <p>
+                Username:
+                <input type="text" name="username" size="15" maxlenght="40"></input>
+            </p>
+            <p>
+                Password:
+                <input type="password" name="password" size="15" maxlenght="40"></input>
+            </p>
+            <p>
+                Mobile:
+                <input type="text" name="mobile" size="15" maxlenght="40">
+                
+            </p>
+        </fieldset>
+            <p>
+                Add Comment:
+                <textarea name="comments" cols="10"></textarea>
+            </p>
+            <input type="reset" value="Reset">
+
+            <p>
+                Please select which is your favourite colour?
+                <input type="radio" name="colour" value="blue" checked="checked"/> Blue
+                <input type="radio" name="colour" value="pink" checked="checked"/> Pink
+                <input type="radio" name="colour" value="green" checked="checked"/> Green
+
+            </p>
+            <p>
+                What is your unfavourite colour?
+                <input type="checkbox" name="colour" value="yellow"/> Yellow
+                <input type="checkbox" name="colour" value="red"/> Red
+                <input type="checkbox" name="violet" value="violet"/> Violet
+
+            </p>
+            <p>
+                Please select your most favourite colour:
+                <select name="colour" >
+                    <option value="Purple">Purple</option>
+                    <option value="White">White</option>
+                    <option value="Red">Red</option>
+            </p>
+            <p>
+                What instruments do you play?
+                <select name="instruments[]" size="3" multiple="multiple">
+                    <option value="piano"> Piano </option>
+                    <option value="violin"> Violin </option>
+                    <option value="guiar"> Guitar </option>
+                    <option value="harph"> Harph </option>
+                </select>
+
+            </p>
+                <input type="file" name="file" id="">
+                <br>
+                <input type="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png" value="upload" width="100" height="100">
+
+        </p>
+            <label for="username">birthday</label>
+            <input type="date" name="birthday"/>
+            <input type="submit" value="Submit">
+
+        </form>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+#Prvi {
+    background-color: bisque;
+    opacity: 0.5;
+    color: rgb(27, 119, 121);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Drugi {
+    background-color: rgb(85, 107, 47, 0.5);
+    color: rgb(127, 255, 212);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+}
+#Treci {
+    background-color: rgb(192, 104, 122);
+    color: #07c9e2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#prva {
+    background-color: blue;
+}
+#druga {
+    background-color: hotpink;
+}
+#treca {
+    background-color: orangered;
+}
+#spanprvi {
+    font-family: monospace;
+}
+#spandrugi {
+    font-family: monospace;
+}
+#spantreci {
+    font-family: monospace;
+}
+#glavnitekst {
+    font-size:large;
+}
+#Lol{
+    font-weight: 300;
+    font-style: italic;
+}
+#body {
+    background-color: rgb(248, 220, 224);
+}
