@@ -1,0 +1,65 @@
+.box {
+    height : 500px;
+    width : 400px;
+    background-color: yellow;
+}
+#Lorem {
+    width : 300px;
+}
+#Lorem2 {
+    height : 68%;
+    width  : 75%;
+    background-color: red;
+    height : 200px;
+}
+#p_one {
+    background-color: yellow;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: red;
+}
+#p_two {
+    background-color: yellow;
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;
+}
+#p_three {
+    background-color: yellow;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: red;
+}
+#p__one {
+    background-color: cornflowerblue;
+    width:300px;
+    margin : 50px;
+}
+#p__two {
+    background-color: darkkhaki;
+    width:400px;
+    margin : 20px;
+    margin : 0 auto;
+    visibility: hidden;
+}
+#p__three {
+    background-color: rgb(108, 202, 112);
+    margin : 20px;
+    width : 200px;
+    margin-left: 100px;
+    visibility: hidden;
+}
+.bokss {
+    width: 960px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(207, 138, 175);
+    color: rgb(70, 2, 70);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -moz-box-shadow: 11px 17px 5px -7px rgba(125,37,96,0.85);
+    box-shadow: 11px 17px 5px -7px rgba(125,37,96,0.85);
+    border-radius: 10px;
+}
