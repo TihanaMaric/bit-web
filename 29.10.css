@@ -1,0 +1,60 @@
+#Lista1 {
+    list-style-type: circle;
+}
+#Lista2 {
+    list-style-type: square;
+}
+#Lista3 {
+    list-style: upper-alpha;
+}
+#Lista4 {
+    list-style: upper-roman;
+}
+#Lista5 {
+    list-style-image: url(https://th.bing.com/th/id/OIP.PRE4a_DYasb9p2jBQ06U8wAAAA?pid=ImgDet&rs=1);
+    width: 200px;
+}
+#Lista6 {
+    list-style-image: url(https://th.bing.com/th/id/OIP.PRE4a_DYasb9p2jBQ06U8wAAAA?pid=ImgDet&rs=1);
+    width: 200px;
+}
+#table {
+    margin: 0 auto;
+    border-spacing: 0px;
+}
+#t1 {
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#t2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(242, 242, 242);
+}
+#t3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(216, 216, 216);
+}
+#t4 {
+    padding-left: 10px;
+    background-color: rgb(192, 192, 192);
+}
+#t5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(192, 192, 192);
+}
+
+#Form {
+    margin: 0 auto;
+    background-color: rgb(214, 214, 214);
+    padding: 20px;
+    border-radius: 15px;
+}   
+#button {
+    background-color: darkred;
+    border-color:darkred;
+    color:white;
+}
