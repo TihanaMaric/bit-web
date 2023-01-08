@@ -1,0 +1,22 @@
+.slika1 {
+    position:relative;
+    top: 50px;
+    left: 100px;
+    margin-bottom: 20px;
+}
+.slika2 {
+    position:absolute;
+    right: 10px;
+    top: 15px;
+}
+.slika3 {
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.link {
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    margin: 0;
+}

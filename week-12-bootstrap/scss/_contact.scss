@@ -1,0 +1,195 @@
+@import 'mixins';
+@import 'variables';
+
+$Greenish: #18bc9c;
+$Blueish :#2c3e50;
+$ContactTextColor: #495057;
+
+@mixin line{
+    display: inline-block;
+    width:70px;
+    border-bottom: 3px solid white;
+}
+
+@mixin line2{
+    display: inline-block;
+    width:70px;
+    border-bottom: 3px solid black;
+}
+
+@mixin white_star{
+        color:white;
+        position: relative;
+        top: 3px;
+}
+
+@mixin black_star{
+        color:black;
+        position: relative;
+        top: 3px;
+}
+
+
+h2{
+    padding-top:15px;
+    font-size:40px;
+    font-weight: 700!important;
+}
+
+.about{
+    background-color: $Greenish;
+    padding-top:50px;
+    padding-bottom:20px;
+    margin-bottom: 30px;
+    h2{
+        color:white;
+    }
+    p{
+        color:white;
+        padding-top:15px;
+    }
+    img{
+        height: 200px;
+    }
+    .line{
+        @include line;
+    }
+    i{
+        @include white_star;
+    } 
+}
+
+
+footer{
+    background-color: $Blueish;
+    color: white;
+}
+
+.mobTitle{
+    h1{
+      font-weight: 700!important;
+      font-size: 140px!important;
+    }
+  }
+
+
+.btn-main{
+    background-color: $Greenish!important;
+    color: white!important;
+}
+form{
+    color:$ContactTextColor;
+    margin-bottom:50px;
+}
+
+.masthead{
+    background-color: $Greenish;
+    padding-top:50px;
+    padding-bottom:20px;
+    margin-bottom: 30px;
+    h1{
+        color:white;
+        padding-top:15px;
+        font-size:50px;
+        font-weight: 700;
+    }
+    p{
+        color:white;
+        padding-top:15px;
+    }
+    i{
+        color:white;
+        position: relative;
+        top: 3px;
+    }
+    img{
+        height: 200px;
+    }
+    .line{
+        @include line;
+    }
+    
+}
+.navbar {
+    font-weight: 900;
+    background-color: $Blueish;
+    a{
+        color: white;
+        font-weight: 700;
+        &:hover{
+            color: $Greenish;
+        }
+    }
+    .logo{
+        a:hover{
+            color:white;}
+    }
+    .navbar-brand{
+        font-weight: 900;
+    }
+    .navbar-collapse{
+        flex-grow: 0;
+        margin-right:12%;
+    }
+    .navbar-toggler{
+        color: white!important;
+        border:2px solid white;
+
+    }
+    
+    @media (max-width: 576px) {
+        .navbar-toggler{
+            color: white!important;
+            border:2px solid $Greenish!important;
+            background-color:$Greenish!important ;
+            padding: 5px!important;
+            font-size:1rem;
+            font-weight: bold;
+        }
+        .logo{
+            margin-left:0%;
+        }
+    
+    }
+
+    @media (min-width: 576px) { 
+        .logo{
+            margin-left:7%;
+        }
+     }
+
+     @media (min-width: 576px) { 
+        .navbar-toggler{
+            margin-right:10%!important;
+        }
+        .logo{
+            margin-left:7%;
+        }
+     }
+
+     @media (min-width: 992px) { 
+        .logo{
+            margin-left:10%;
+        }
+
+      }
+}
+@media (min-width: 992px) {
+    .portfolio{
+        margin-left: 10%!important;
+        margin-right: 10%!important;
+    }
+
+ }
+
+ @media (max-width: 576px) {
+    .portfolio{
+        margin-left: 1%!important;
+        margin-right: 1%!important;
+
+    }
+  }
+
+  .line{
+    @include line2;
+}

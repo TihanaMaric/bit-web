@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(87, 23, 76);
+    background-color: rgb(235, 149, 213, 0.7);
+    padding: 20px;
+}
+
+body{
+    background-image: url(https://www.theblockshop.com.au/media/catalog/product/cache/ce6beb1c11c5ecff67aba25968deddd4/f/l/flower-wall-pink-wallpaper-112374.jpg);
+    background-attachment: fixed;
+}
+
+#slika1{
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+}
+#slika2{
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+}
+
+nav{
+    background-color: rgb(235, 166, 225, 0.7);
+    text-align: center;
+    color: rgb(136, 36, 123);
+    padding: 10px;
+}
+hr {
+    color: rgb(168, 47, 122);
+}
+p{
+    color: rgb(139, 63, 139);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(196, 137, 188, 0.7);
+}
+h3{
+    text-align: center;
+    color: rgb(122, 52, 122);
+    font-family: fantasy;
+    background-color: rgba(129, 61, 118, 0.5);
+}
+
+div{
+    background-color: rgba(129, 61, 118, 0.5);
+}

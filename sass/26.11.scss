@@ -1,0 +1,38 @@
+*{
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+
+@function column-width($overall-width, $number-of-columns){
+    @return $overall-width / $number-of-columns;
+}
+
+a{
+    width: 250px;
+    height: 35px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+
+    &:link{
+        background-color: green;
+    }
+    &:visited{
+        background-color: orange;
+    }
+    &:hover{
+        background-color: aquamarine;
+    }
+    &:active{
+        background-color: yellow;
+    }
+}
+
+@for $i from 1 through 4{
+    .text-#{$i}{
+        font-size: 14px + $i*2;
+    }
+}

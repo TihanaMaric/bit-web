@@ -1,0 +1,20 @@
+#{
+    margin:0;
+    box box-sizing: border-box;
+}
+.container{
+    width=960px;
+    margin:auto;
+}
+header{
+    padding:10px;
+    background:grey;
+}
+main {
+    display:flex;
+}
+aside{ 
+    background:black;
+    flex: 1 0 25%;
+    padding:10px;
+}
