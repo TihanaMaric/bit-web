@@ -1,0 +1,16 @@
+.main-text{
+    background-color:rgb(175, 175, 182);
+    width: 98%;
+    height: 80vh;
+    margin: 20px  auto 0 auto;
+}
+
+.main-text p{
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 10px;
+    margin-top: 2px;
+}

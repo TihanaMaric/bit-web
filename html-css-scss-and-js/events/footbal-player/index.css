@@ -1,0 +1,16 @@
+.field{
+    background-image: url(./img/photo_2023-01-14_15-23-45.jpg);
+    width: 800px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+}
+.player{
+    width: 50px;
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    transition: left .5s ease-in, top .5s ease-in;
+}
