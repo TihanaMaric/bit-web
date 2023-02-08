@@ -1,0 +1,53 @@
+#search{
+    background: no-repeat scroll 1px 1px;
+    padding-left:20px;
+ }
+ header{
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ #search-div{
+    align-self: center;
+ }
+ 
+ #search{
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: 2px solid black;
+    width:17em;
+   
+ }
+ 
+ input:focus{
+    outline: none;
+ }
+ 
+ 
+ main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+ }
+ 
+ 
+ 
+ div img{
+ width: 400px;
+ }
+ main div{
+  margin: 1em;
+ }
+ 
+ p{
+    text-align: center;
+ }
+ 
+ table, td, th{
+    border:1px solid black;
+ }
+ 
+  th{
+    border-collapse: collapse;
+ }

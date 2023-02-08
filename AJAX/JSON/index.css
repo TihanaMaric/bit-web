@@ -1,0 +1,9 @@
+.forImg{
+    width: fit-content;
+    border: 1px solid black;
+    margin-bottom: 1em;
+}
+
+#img{
+    width: 400px;
+}

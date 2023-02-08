@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam statistics</title>
+    <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+
+    <h1>Exam statistics</h1>
+
+    <main class="app">
+        <section class="exam_statistics">
+            <h2>Exam statistics June</h2>
+
+            <p class="total_statistics">Total students: <span>0</span></p>
+            <div class="statistics passed_statistics">
+                <p>Passed</p>
+                <p class="statistics_num">0</p>
+                <p class="statistics_perc" style="visibility: hidden">0%</p>
+            </div>
+            <div class="statistics failed_statistics">
+                <p>Failed</p>
+                <p class="statistics_num">0</p>
+                <p class="statistics_perc">0%</p>
+            </div>
+        </section>
+
+        <section class="exams_inputs">
+            <form class="form">
+                <select name="subject" id="subject" required>
+                    <option value="JS">JavaScript</option>
+                    <option value="WEB">WEB</option>
+                    <option value="SQL">SQL</option>
+                </select>
+
+                <input type="text" name="name" id="name" placeholder="Name Surname" required />
+                <input type="number" name="grade" id="grade" placeholder="grade" min="1" max="10" required />
+                <button type="submit" class="form_submit">Add</button>
+            </form>
+        </section>
+        <section class="exams_display">
+            <section class="exams_section exams_section--passed">
+                <h2 class="exams_title">Passed</h2>
+
+            </section>
+            <section class="exams_section exams_section--failed">
+                <h2 class="exams_title">Failed</h2>
+            </section>
+        </section>
+    </main>
+    <script defer src="./js/app.js"></script>
+    <script defer src="./js/exam.js"></script>
+    <script defer src="./js/form.js"></script>
+    <script defer src="./js/student.js"></script>
+    <script defer src="./js/subject.js"></script>
+</body>
+
+</html>
