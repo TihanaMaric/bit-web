@@ -1,0 +1,71 @@
+body {
+    background-image: url("./backround.jpg");
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.likeImageButton {
+    padding-right: 5px;
+    position: relative;
+    bottom: 2px;
+}
+
+.gallery {
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.oneCharacter {
+    background-color: white;
+    width: 22%;
+    padding: 0;
+}
+
+.charactersImg {
+    width: 100%;
+}
+
+.btn {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+
+.characterName {
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+
+.greenOnClick {
+    background-color: green;
+    color: white;
+}
+
+.character img {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.goHome {
+    text-align: center;
+    padding: 5px;
+}
+
+.btn-secondary {
+    width: 10%;
+    margin: 10px;
+    border: 1px solid 
+}
+
+p {
+    color: white;
+}

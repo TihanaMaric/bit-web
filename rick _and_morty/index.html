@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick and Morty</title>
+    <!-- Boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fw">
+        <div class="container-fluid">
+          <a id="logo" class="navbar-brand ms-3" href="index.html"
+            >Rick and Morty</a
+          >
+        </div>
+      </nav>
+
+      <nav aria-label="Page navigation example ">
+        <ul id="first" class="pagination justify-content-center mt-3">
+          <li class="page-item">
+            <a
+              class="leftArrows page-link bg-dark text-white"
+              href="#"
+              tabindex="-1"
+            >
+              <<
+            </a>
+          </li>
+          <li class="page-item page-link text-dark page page1 bg-success"></li>
+          <li class="page-item page-link text-dark page page2"></li>
+          <li class="page-item page-link text-dark page page3"></li>
+          <li class="page-item page-link text-dark page page4"></li>
+          <li class="page-item page-link text-dark page page5"></li>
+          <li class="page-item">
+            <a class="rightArrows page-link bg-dark text-white" href="#">
+              >>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="wrapper">
+        <div class="gallery row"></div>
+      </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js" defer></script>
+  </body>
+</html>
