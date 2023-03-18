@@ -1,0 +1,5 @@
+.mainOl {
+    list-style-type:decimal;
+    padding: 30px 50px;
+    background-color: rgb(246,246,238);
+}
