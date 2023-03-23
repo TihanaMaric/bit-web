@@ -1,0 +1,37 @@
+.list {
+    border: 1px solid rgb(214, 203, 203);
+    border-top: none;
+    display: flex;
+}
+
+.list:hover {
+    box-shadow: 0px -9px 13px -5px rgba(0,0,0,0.64);
+}
+
+.picture img {
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+
+.data {
+    text-align: left;
+    margin: 0;
+}
+
+.female {
+    background-color: white;
+}
+
+.first {
+    border-top: 1px solid rgb(212, 207, 207);
+}
+
+.loadingImage {
+    width: fit-content;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}

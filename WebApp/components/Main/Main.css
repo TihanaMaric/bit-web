@@ -1,0 +1,24 @@
+.genderdata {
+    text-align: right;
+    color: gray;
+    padding-right: 3%;
+}
+
+.noUsersImage {
+    margin: 5%;
+    width: 10%;
+    margin-bottom: 3px;
+}
+
+.noMatch {
+    font-weight: bolder;
+    width: 15%;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.gridmain {
+    width: 75%;
+    margin: 0 auto;
+    
+}
