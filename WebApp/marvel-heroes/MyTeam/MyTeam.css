@@ -1,0 +1,28 @@
+.myteam-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .myteam-card {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+  }
+  .myteam-image {
+    width: 40%;
+  }
+  .myteam-image img {
+    border-right: 1px solid black;
+    width: 100%;
+    height: 100%;
+  }
+  .myteam {
+    width: 100%;
+  }
+  .myteam-hero {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+  }

@@ -1,0 +1,32 @@
+.heroes-container {
+    width: 100%;
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .card {
+    width: 24%;
+    border: solid 2px black;
+    padding: 10px;
+  }
+  .hero-info {
+    width: 100%;
+  }
+  .card-img {
+    height: 10%;
+    padding-bottom: 20px;
+  }
+  .card-img img {
+    height: 300px;
+    width: 80%;
+    border: solid 2px black;
+  }
+  .btn {
+    padding: 20px;
+    background-color: #008e8e;
+    width: 30%;
+    border-radius: 20px;
+  }

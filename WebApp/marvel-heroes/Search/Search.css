@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    gap: 5px;
+    margin-top: 20px;
+  }
+
+ 
+  #search {
+    padding: 10px;
+    font-size: 30px;
+    color: gray;
+    border-radius: 40px;
+  }
+  input {
+    width: 100%;
+    border: 1px solid #1ea6e5;
+    padding: 5px;
+  }

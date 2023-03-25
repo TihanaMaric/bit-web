@@ -1,0 +1,11 @@
+.main-content-container {
+    display: flex;
+    padding-top: 2%;
+    width: 100%;
+  }
+  .myteam {
+    width: 40%;
+  }
+  .heroes {
+    width: 100%;
+  }
